@@ -1,39 +1,52 @@
-<div>
-    
-    <nav class="navbar navbar-expand-lg bg-dark ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    <div class="container-fluid min-vh-100 bg-light">
+        <div class="row min-vh-100">
+            <div class="col-12 col-md-3 col-lg-2 bg-dark text-white p-3">
+                <div class="d-flex align-items-center gap-2 mb-4">
+                    <i class="bi bi-claude text-danger fs-4"></i>
+                    <span class="fw-bold">PROJETO IOT</span>
+                </div>
+
+                <nav class="nav nav-tabs flex-column gap-2">
+                    <a href="" class="nav-link text-white">
+                        <i class="bi bi-speedometer2 me-2"></i>
+                        Dashboard
+                    </a>
+
+                    <a href="" class="nav-link text-white">
+                        <i class="bi bi-flower3 me-2"></i>
+                        Ambiente
+                    </a>
+
+                    <a href="" class="nav-link text-white">
+                        <i class="bi bi-cpu me-2"></i>
+                        Sensor
+                    </a>
+
+                    <a href="" class="nav-link text-white">
+                        <i class="bi bi-files me-2"></i>
+                        Registro
+                    </a>
+                </nav>
+
+                <div class="mt-4 pt-4 border-top border-secondary">
+                    <form>
+                        <button type="submit" class="btn btn-outline-light
+                        w-100"><i class="bi bi-box-arrow-right me-2"></i>
+                            Sair</button>
+                    </form>
+                </div>
+            </div>
+
+                <div class="col-12 col-md-9 col-lg-10 p-0">
+                    <nav class="navbar bg-white border-bottom px-3 px-md-4">
+                        <div class="container-fluid p-0">
+                            
+
+                            <div class="d-flex align-items-center gap-2 text-secondary">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+        </div>
     </div>
-  </div>
-</nav>
-</div>
+    </div>
+    
+    </div>
